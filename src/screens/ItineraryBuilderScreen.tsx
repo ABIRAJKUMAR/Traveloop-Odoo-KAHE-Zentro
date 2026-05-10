@@ -154,7 +154,7 @@ export default function ItineraryBuilderScreen() {
               </div>
             )}
 
-            {trip.stops.map((stop, index) => (
+            {trip.stops.map((stop) => (
               <div 
                 key={stop.id}
                 onClick={() => setActiveStopId(stop.id)}

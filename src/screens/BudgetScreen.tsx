@@ -107,7 +107,7 @@ export default function BudgetScreen() {
                         <Cell key={`cell-${index}`} fill={entry.color} />
                       ))}
                     </Pie>
-                    <Tooltip formatter={(value: number) => `$${value}`} />
+                    <Tooltip formatter={(value: any) => `$${value}`} />
                     <Legend verticalAlign="bottom" height={36} iconType="circle" />
                   </PieChart>
                 </ResponsiveContainer>
